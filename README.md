@@ -1,9 +1,9 @@
-# Planetary Gear System
+# Compliant Carabiner
 **Project Type:** Mechanical Design Demonstration
 
-**Status:** Completed
+**Status:** Pending
 
-**Date:** August 2026
+**Date:** Septmeber 2026
 
 
 
