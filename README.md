@@ -10,81 +10,26 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Design Approach](#design-approach)
-  - [Parameters](#parameters)
 - [How It Works](#how-it-works)
 - [Assets](#assets)
   - [Images](#images)
-  - [Demonstration](#demonstration)
 - [Key Takeaways](#key-takeaways)
 
 
 
   
 ## Overview
-A 3D CAD model of a planetary gear system designed and assembled in Autodesk Fusion 360.
+A 3D CAD model of a carabiner that uses it's unorthodox structure as a compliance mechanism.
 
 
 ## Design Approach
 
-The planetary gear system was designed in Fusion 360 using a module of 2 mm and a pressure angle of 20°. The target configuration uses the ring gear as the fixed member, the sun gear as the input, and the planet carrier as the output, with a 6:1 speed reduction.
-
-`R = Ring gear`
-`S = Sun gear`
-`P = Planet gear`
-`Np = Number of planets`
-`Gr = Gear ratio`
-
-
-
-The ring gear was set to 80 teeth. The required sun gear teeth number was calculated from the gear ratio:
-
-`S = R / ((1/Gr) - 1)`
-
-`S = 80 / ((1/(1/6)) - 1)`
-
-`S = 16 teeth`
-
-The planet gear teeth number was determined from the relationship between the sun and ring gears:
-
-`P = (R - S) / 2`
-
-`P = (80 - 16) / 2`
-
-`P = 32 teeth`
-
-The three-planet arrangement was then cross-checked using:
-
-`(R + S) / Np`
-
-`(80 + 16) / 3 = 32`
-
-The result is an integer which implies that the three planet gears can be evenly distributed around the sun gear while maintaining the required gear geometry.
-
-The gears and planet carrier were modelled as separate components and assembled using appropriate joints to establish their relative positions and allow the required rotational movement.
-
-
-
-
-### Parameters
-
-| Parameter                        |                             Value |
-| ---------------------------------|---------------------------------: |
-| Module                           |                              2 mm |
-| Pressure angle                   |                               20° |
-| Sun gear teeth                   |                                16 |
-| Planet gear teeth                |                                32 |
-| Ring gear teeth                  |                                80 |
-| Sun pitch diameter               |                             32 mm |
-| Planet pitch diameter            |                             64 mm |
-| Ring pitch diameter              |                            160 mm |
-| Number of planet gears           |                                 3 |
-| Planet gear spacing              |                              120° |
-| Gear reduction                   |                               6:1 |
+The system consists of two concentric circles connected at extreme/opposite ends of their circumference. The inner circle is split 90 degrees off of the connector  (it might have been smarter to have that split on 45 so properties can sit straight down better.) and the edges are a rough zig zag to improve grip/friction. material would be x. the thickness across the shape is consistently x, the outer circle is x diameter and the inner is y. the whole shape is also consistently filleted at x degrees.
  
 
   
 ## How It Works
-The ring gear is fixed while the sun gear provides the input rotation. The sun gear meshes with the three planet gears, causing them to rotate about their own axes. Since the planet gears are mounted on the carrier and also mesh with the fixed ring gear, their motion causes the carrier to rotate in the same direction as the sun gear at a slower speed. The selected gear tooth numbers give the system a 6:1 reduction. This means it takes six rotations of the sun gear for one full rotation of the carrier.
+The outer circle is flexed which mechanically causes the inner semicircles to move apart, forming an opening to attack stuff.
 
 
 
