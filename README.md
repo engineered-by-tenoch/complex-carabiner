@@ -3,7 +3,7 @@
 
 **Status:** Pending
 
-**Date:** Septmeber 2026
+**Date:** September 2026
 
 
 
@@ -19,34 +19,32 @@
 
   
 ## Overview
-A 3D CAD model of a carabiner that uses it's unorthodox structure as a compliance mechanism.
+A 3D CAD model of a carabiner that uses its unconventional structure as a compliant mechanism.
 
 
 ## Design Approach
-
-The system consists of two concentric circles connected at extreme/opposite ends of their circumference. The inner circle is split 90 degrees off of the connector  (it might have been smarter to have that split on 45 so properties can sit straight down better.) and the edges are a rough zig zag to improve grip/friction. material would be x. the thickness across the shape is consistently x, the outer circle is x diameter and the inner is y. the whole shape is also consistently filleted at x degrees.
+The system consists of two concentric circles connected at opposite ends of their circumferences. The inner circle is split at 90° to the connector axis (although a 45° split might have been more suitable for allowing objects to sit straight down), with rough zigzag edges to improve grip and friction. The material selected is X. The thickness across the structure is consistently 15 mm, with an outer ring diameter of 75 mm and an inner ring diameter of 50 mm. The entire structure features 1 mm fillets along its edges.
  
 
   
 ## How It Works
-The outer circle is flexed which mechanically causes the inner semicircles to move apart, forming an opening to attack stuff.
+The mechanism operates through compliant deformation. Applying pressure to the outer ring causes it to flex, separating the two semicircles of the inner ring. This action creates an opening for objects to be attached. Once released, the elastic nature of the outer ring allows it to return to its original shape, bringing the two halves of the inner ring back together and closing the gate.
 
 
 
 ## Assets
 ### Images
 #### Top View
-![Top View](<Assets/Default View.png>)
+![Default View](<Assets/Default View.png>)
 
 #### Side View
-![Side View](<Assets/Top View.png>)
+![Top View](<Assets/Top View.png>)
 
 #### Bottom View
-![Bottom View](<Assets/Horizontal View.png>)
+![Horizontal View](<Assets/Horizontal View.png>)
 
 
 ## Key Takeaways
-- The number of teeth and geometry of the sun, planet, and ring gears determine how the components mesh and interact in the planetary system.
-- Joints define the allowed movement between components, providing the basis for accurately modelling the mechanism's motion.
-- The interaction between constrained components can be used to reproduce the motion behaviours of  mechanical systems in a CAD environment.
-- Planetary gear systems provide significant speed reduction and torque multiplication within a compact arrangement, making them useful in applications such as automotive transmissions and robotic actuators.
+- Compliant mechanisms rely on controlled elastic deformation to achieve motion without conventional joints.
+- Material properties and stress distribution are essential considerations when designing structures intended to deform repeatedly under load.
+- Iterative prototyping is essential to reveal design limitations and guide subsequent improvements.
