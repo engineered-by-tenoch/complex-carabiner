@@ -23,7 +23,7 @@ A 3D CAD model of a carabiner that uses its unconventional structure as a compli
 
 
 ## Design Approach
-The system consists of two concentric circles connected at opposite ends of their circumferences. The inner circle is split at 90° to the connector axis (although a 45° split might have been more suitable for allowing objects to sit straight down), with rough zigzag edges to improve grip and friction. The material selected is X. The thickness across the structure is consistently 15 mm, with an outer ring diameter of 75 mm and an inner ring diameter of 50 mm. The entire structure features 1 mm fillets along its edges.
+The system consists of two concentric circles connected at opposite ends of their circumferences. The inner circle is split at 90° to the connector axis (although a 45° split might have been more suitable for allowing objects to sit straight down), with rough zigzag edges to improve grip and friction. The selected material is nylon (PA12). The thickness across the structure is consistently 15 mm, with an outer ring diameter of 75 mm and an inner ring diameter of 50 mm. The entire structure features 1 mm fillets along its edges.
  
 
   
@@ -34,13 +34,13 @@ The mechanism operates through compliant deformation. Applying pressure to the o
 
 ## Assets
 ### Images
-#### Top View
+#### Default View
 ![Default View](<Assets/Default View.png>)
 
-#### Side View
+#### Top View
 ![Top View](<Assets/Top View.png>)
 
-#### Bottom View
+#### Horizontal View
 ![Horizontal View](<Assets/Horizontal View.png>)
 
 
