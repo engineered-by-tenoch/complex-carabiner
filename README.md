@@ -36,19 +36,13 @@ The outer circle is flexed which mechanically causes the inner semicircles to mo
 ## Assets
 ### Images
 #### Top View
-![Top View](<Assets/Labelled View.png>)
+![Top View](<Assets/Default View.png>)
 
 #### Side View
-![Side View](<Assets/Side View.png>)
+![Side View](<Assets/Top View.png>)
 
 #### Bottom View
-![Bottom View](<Assets/Bottom View.png>)
-
-### Demonstration
-#### Preview
-![Image](<Assets/Demo.gif>)
-
-[Video](<Assets/Demonstration Video.mp4>)
+![Bottom View](<Assets/Horizontal View.png>)
 
 
 ## Key Takeaways
